@@ -1,24 +1,157 @@
 @media (max-width: 576px) {
+
+    h1.display-1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 1.8rem;
+    }
+
+    h3.display-6{
+        font-size: 1.4rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .navbar-brand{
+        font-size: 1rem;
+    }
+
+    .nav-link{
+        font-size: 1.1rem;
+    }
+
+    .btn{
+        font-size: 0.95rem;
+    }
+
+    .card-title{
+        font-size: 1rem !important;
+    }
+
+    .card-text{
+        font-size: 0.9rem;
+    }
+
+    .footer{
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    .sistem-g{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
-/* TABLET - 577px do 992px */
+
+
+/* TABLET */
 @media (min-width: 577px) and (max-width: 992px) {
+
+    h1.display-1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3.display-6{
+        font-size: 1.8rem;
+    }
+
+    p{
+        font-size: 1.05rem;
+    }
+
+    .navbar-brand{
+        font-size: 1.1rem;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+
+    .card-title{
+        font-size: 1rem !important;
+    }
+
+    .card-text{
+        font-size: 0.95rem;
+    }
+
     #me2{
         height: 100%;
     }
+
     .box{
         height: 100%;
     }
-    .card-text{
-        font-size: 14px;
+
+    .sistem-g{
+        grid-template-columns: repeat(2,1fr);
     }
-    .Skilss{
-        margin:24 0px;
+
+    .kontakt{
+        display: none;
+    }
+
+    .no{
+        display: block;
     }
 }
-/* DESKTOP - 993px i više */
+
+
+/* DESKTOP */
 @media (min-width: 993px) {
+
+    h1.display-1{
+        font-size: 5rem;
+    }
+
+    h2{
+        font-size: 2.2rem;
+    }
+
+    h3.display-6{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.05rem;
+    }
+
+    .navbar-brand{
+        font-size: 1.30rem;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+
+    .card-title{
+        font-size: 1rem !important;
+    }
+
+    .card-text{
+        font-size: 0.95rem;
+    }
+
     .bel{
         font-size: 14px;
     }
-    
+
+    .no{
+        display: none;
+    }
 }
