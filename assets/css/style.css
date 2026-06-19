@@ -23,7 +23,7 @@ html{
 body{
     background-color: var(--body-color);
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 80px
+    padding-top: 80px;
 }
 #logo{
     border-radius: 50%;
@@ -38,6 +38,16 @@ nav{
     background-color: var(--light-color);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
+
+.no-span{
+    border-radius: 0px;
+    border: 0px;
+}
+span{
+    border-radius: 50%;
+    border:2px solid var(--primary-color);
+    padding: 10px;
+}
 .navbar-brand,h1,h3,i{
     color: var(--primary-color);
 }
@@ -48,16 +58,15 @@ nav{
     outline: none;
     box-shadow: none;
 }
-.nav-link:hover,#logo:hover,.navbar-brand:hover{
+.nav-link:hover,.navbar-brand:hover,.navbar-brand:hover{
     color:  var(--hover-color);
 }
-.btn{
-    padding:10px 30px;
-    border: none;
+.btn-primary{
     background-color: var(--primary-color);
-}
-.btn:hover{
     border: none;
+}
+
+.btn-primary:hover{
     background-color: var(--hover-color);
 }
 h2{
@@ -143,10 +152,7 @@ i:hover{
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     height: 100%;
 }
-.box{
-    height: 50%;
-    width: 100%;
-}
+
 .img-logo{
     width:60%;
     height: 100%;
@@ -156,4 +162,15 @@ i:hover{
 }
 .btn-cvc{
     width: 149px;
+}
+.sistem-g{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.btn,
+.nav-link,
+.navbar-brand,
+i{
+    transition: 0.3s;
 }
