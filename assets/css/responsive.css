@@ -44,13 +44,6 @@
     .sistem-g{
         grid-template-columns: repeat(1,1fr);
     }
-    .kontakt{
-        display: none;
-    }
-
-    .no{
-        display: block;
-    }
 }
 
 
@@ -105,7 +98,13 @@
         grid-template-columns: repeat(2,1fr);
     }
 
-    
+    .kontakt{
+        display: none;
+    }
+
+    .no{
+        display: block;
+    }
 }
 
 
